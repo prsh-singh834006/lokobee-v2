@@ -1,0 +1,30 @@
+{
+  "name": "lokobee-v2",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "description": "Lokobee v2 is a product of lokobee inc",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prsh-singh834006/lokobee-v2.git"
+  },
+  "author": "Prashant Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prsh-singh834006/lokobee-v2/issues"
+  },
+  "homepage": "https://github.com/prsh-singh834006/lokobee-v2#readme",
+  "devDependencies": {
+    "lerna": "^3.18.3",
+    "tslint": "^5.13.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-standard": "^8.0.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-react": "^3.6.0"
+  }
+}
