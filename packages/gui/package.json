@@ -1,0 +1,48 @@
+{
+  "name": "gui",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Prashant Kumar <prashantsingh619619@gmail.com>",
+  "homepage": "https://github.com/prsh-singh834006/lokobee-v2/tree/master/packages/gui#readme",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "directories": {
+    "dist": "index.js",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prsh-singh834006/lokobee-v2.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "compile": "webpack --mode=production"
+  },
+  "bugs": {
+    "url": "https://github.com/prsh-singh834006/lokobee-v2/issues"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-typescript": "^7.6.0"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.3",
+    "css-loader": "^3.2.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
