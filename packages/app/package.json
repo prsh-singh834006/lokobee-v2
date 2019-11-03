@@ -1,6 +1,6 @@
 {
   "name": "app",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "homepage": "https://github.com/prsh-singh834006/lokobee-v2/tree/master/packages/app#readme",
   "repository": {
     "type": "git",
@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@babel/core": "7.6.0",
-    "@lokobee/common": "^0.0.6",
+    "@lokobee/common": "^0.0.7",
     "@svgr/webpack": "4.3.2",
     "@types/jest": "24.0.20",
     "@types/node": "12.11.7",
@@ -43,7 +43,7 @@
     "jest-environment-jsdom-fourteen": "0.1.0",
     "jest-resolve": "24.9.0",
     "jest-watch-typeahead": "0.4.0",
-    "lokobee-gui": "^0.0.6",
+    "lokobee-gui": "^0.0.7",
     "mini-css-extract-plugin": "0.8.0",
     "optimize-css-assets-webpack-plugin": "5.0.3",
     "pnp-webpack-plugin": "1.5.0",
