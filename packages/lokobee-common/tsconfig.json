@@ -3,9 +3,13 @@
   "module": "commonjs",
   "compilerOptions": {
     "baseUrl": "src",
+    "outDir": "dist",
     "paths": {
       "@/*": ["src/*"]
-    }
+    },
+    "allowJs": false,
+    "isolatedModules": false,
+    "declaration": true
   },
   "include": ["./src"]
 }

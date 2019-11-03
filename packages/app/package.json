@@ -35,7 +35,8 @@
     "eslint-plugin-react-hooks": "^1.6.1",
     "file-loader": "3.0.1",
     "fs-extra": "7.0.1",
-    "gui": "^0.0.5",
+    "@lokobee/common": "^0.0.5",
+    "lokobee-gui": "0.1.0",
     "html-webpack-plugin": "4.0.0-beta.5",
     "identity-obj-proxy": "3.0.0",
     "is-wsl": "^1.1.0",
@@ -141,5 +142,6 @@
     "presets": [
       "react-app"
     ]
-  }
+  },
+  "gitHead": "ed9fb47b73e4f7ac91c8d15618e348cf6802958b"
 }

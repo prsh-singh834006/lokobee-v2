@@ -1,9 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Dummy from 'components/Dummy';
-import { Helper } from '@lokobee/common';
-import Apple from 'lokobee-gui';
 
 const App: React.FC = () => {
   return (
@@ -13,15 +10,17 @@ const App: React.FC = () => {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <Apple />
-        <Dummy />
-        <Helper text="Hello" />
-        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Learn React
         </a>
       </header>
     </div>
   );
-};
+}
 
 export default App;

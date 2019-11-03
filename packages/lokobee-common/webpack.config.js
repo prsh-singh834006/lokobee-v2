@@ -20,13 +20,24 @@ module.exports = {
         exclude: /(node_modules|bower_components)/,
         loader: 'babel-loader',
         options: {
-          presets: ['@babel/preset-env', '@babel/react']
+          presets: ['@babel/preset-env', '@babel/react', '@babel/preset-typescript']
         }
       },
       { test: /\.tsx?$/, use: ['ts-loader'], exclude: /node_modules/ },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader']
+        include: path.join(__dirname, 'src'),
+        use: [
+          'style-loader',
+          {
+            loader: 'typings-for-css-modules-loader',
+            options: {
+              modules: true,
+              namedExport: true,
+              camelCase: true
+            }
+          }
+        ]
       }
     ]
   }

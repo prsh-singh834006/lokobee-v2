@@ -1,11 +1,12 @@
 {
-  "name": "gui",
+  "name": "@lokobee/common",
   "version": "0.0.5",
   "description": "> TODO: description",
   "author": "Prashant Kumar <prashantsingh619619@gmail.com>",
   "homepage": "https://github.com/prsh-singh834006/lokobee-v2/tree/master/packages/gui#readme",
   "license": "ISC",
   "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "directories": {
     "dist": "index.js",
     "test": "__tests__"
@@ -30,12 +31,13 @@
   "devDependencies": {
     "@babel/cli": "^7.6.4",
     "@babel/core": "^7.6.4",
-    "@babel/preset-typescript": "^7.6.0"
+    "@babel/preset-typescript": "^7.6.0",
+    "typings-for-css-modules-loader": "^1.7.0"
   },
   "dependencies": {
     "@types/react": "^16.9.11",
     "@types/react-dom": "^16.9.3",
-    "css-loader": "^3.2.0",
+    "css-loader": "1.0.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "style-loader": "^1.0.0",
@@ -44,5 +46,6 @@
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
     "webpack-node-externals": "^1.7.2"
-  }
+  },
+  "gitHead": "ed9fb47b73e4f7ac91c8d15618e348cf6802958b"
 }
